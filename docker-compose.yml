@@ -1,0 +1,16 @@
+# MySQL local para desenvolvimento. Uso: docker compose up -d
+services:
+  mysql:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: barbearia
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD:?defina DB_PASSWORD no arquivo .env}
+      TZ: America/Campo_Grande
+    ports: ["3306:3306"]
+    volumes: [mysql_data:/var/lib/mysql]
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      retries: 10
+volumes:
+  mysql_data:

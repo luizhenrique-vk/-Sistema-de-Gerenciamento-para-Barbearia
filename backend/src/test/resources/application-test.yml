@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb;MODE=MySQL;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+  flyway:
+    enabled: true
+app:
+  jwt-secret: chave-de-teste-com-pelo-menos-trinta-e-dois-caracteres-123
+  admin-inicial-email: ""
+  admin-inicial-senha: ""
