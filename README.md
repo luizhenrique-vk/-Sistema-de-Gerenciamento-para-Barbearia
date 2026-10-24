@@ -2,9 +2,8 @@
 
 Sistema web para gestão de barbearias: agendamento online, agenda dos barbeiros, controle de pagamentos e relatórios financeiros.
 
-> Projeto de conclusão de curso, evoluído para uma aplicação full stack completa.
-
-## Telas
+**Demonstração (dados fictícios) link do projeto:** https://spectacular-buttercream-d65c1a.netlify.app/#/login
+ Logins de teste, senha `demo1234`: `admin@demo.com`, `barbeiro@demo.com`, `cliente@demo.com`  **Autor:** Luiz Henrique · www.linkedin.com/in/luiz-henrique-freirera
 
 ## Funcionalidades
 
@@ -13,6 +12,8 @@ Sistema web para gestão de barbearias: agendamento online, agenda dos barbeiros
 **Barbeiro:** agenda diária e semanal, dados do cliente, definição da própria disponibilidade e finalização de atendimentos.
 
 **Administrador:** dashboard com indicadores, cadastro de clientes, barbeiros e serviços, horário de funcionamento, controle de pagamentos e relatórios diário, semanal e mensal.
+**Demonstração (dados fictícios) link do projeto:** https://spectacular-buttercream-d65c1a.netlify.app/#/login
+ Logins de teste, senha `demo1234`: `admin@demo.com`, `barbeiro@demo.com`, `cliente@demo.com`
 
 ## Tecnologias
 
