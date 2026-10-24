@@ -6,6 +6,7 @@ spring:
   flyway:
     enabled: true
 app:
+  timezone: ""
   jwt-secret: chave-de-teste-com-pelo-menos-trinta-e-dois-caracteres-123
   admin-inicial-email: ""
   admin-inicial-senha: ""

@@ -11,6 +11,7 @@ public class AppConfig {
     /** Relógio único da aplicação (fuso da barbearia). Facilita testes de regras dependentes de horário. */
     @Bean
     public Clock clock(AppProperties props) {
-        return Clock.system(ZoneId.of(props.timezone()));
+                String tz = props.timezone();
+        return Clock.system(tz == null || tz.isBlank() ? ZoneId.systemDefault() : ZoneId.of(tz));
     }
 }
