@@ -11,10 +11,6 @@ Sistema web para gestão de barbearias: agendamento online, agenda dos barbeiros
 
 **Barbeiro:** agenda diária e semanal, dados do cliente, definição da própria disponibilidade e finalização de atendimentos.
 
-**Administrador:** dashboard com indicadores, cadastro de clientes, barbeiros e serviços, horário de funcionamento, controle de pagamentos e relatórios diário, semanal e mensal.
-**Demonstração (dados fictícios) link do projeto:** https://spectacular-buttercream-d65c1a.netlify.app/#/login
- Logins de teste, senha `demo1234`: `admin@demo.com`, `barbeiro@demo.com`, `cliente@demo.com`
-
 ## Tecnologias
 
 - **Backend:** Java 21, Spring Boot 3, Spring Security (JWT), Spring Data JPA, Bean Validation
